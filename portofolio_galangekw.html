@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio & CV - Galang Eka Wiyono</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-primary selection:text-white">
+
+    <!-- ================= NAVIGASI ================= -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-900">
+        <div class="w-full px-8 md:px-16 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-xl text-white tracking-wider">Galang<span class="text-primary">.</span></a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+                <a href="#tentang" class="hover:text-white transition">Tentang</a>
+                <a href="#pengalaman" class="hover:text-white transition">Pengalaman</a>
+                <a href="#keahlian" class="hover:text-white transition">Keahlian & Tools</a>
+                <a href="#pendidikan" class="hover:text-white transition">Pendidikan</a>
+                <a href="#kontak" class="hover:text-white transition">Kontak</a>
+            </nav>
+
+            <a href="#kontak" class="bg-primary hover:bg-indigo-600 text-white text-xs font-semibold px-4 py-2 rounded-xl transition shadow-lg shadow-primary/20">Hubungi Saya</a>
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="pt-32 pb-16 px-8 md:px-16 w-full flex flex-col md:flex-row items-center justify-between gap-12">
+        <div class="space-y-4 max-w-3xl text-center md:text-left">
+            <span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full border border-primary/20 uppercase tracking-wider">Quality Engineer / Quality Assurance</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">Galang Eka <span class="text-primary">Wiyono</span></h1>
+            <p class="text-slate-400 text-base md:text-lg leading-relaxed">Experienced Software Quality Assurance Engineer specializing in manual and automated testing for large-scale systems in the banking and e-commerce industries.</p>
+            <div class="flex flex-wrap justify-center md:justify-start gap-3 pt-2">
+                <a href="#pengalaman" class="bg-primary hover:bg-indigo-600 text-white text-sm font-medium px-6 py-3 rounded-xl transition shadow-lg shadow-primary/25">Lihat Pengalaman</a>
+                <a href="https://wa.me/6285157612022?text=Halo%20Galang,%20saya%20tertarik%20untuk%20berdiskusi." target="_blank" class="bg-slate-900 hover:bg-slate-800 text-slate-300 text-sm font-medium px-6 py-3 rounded-xl border border-slate-800 transition">Hubungi via WhatsApp</a>
+            </div>
+        </div>
+        <!-- Avatar / Foto Profil -->
+        <div class="w-48 h-48 md:w-64 md:h-64 rounded-full bg-slate-900 border-2 border-primary/30 flex items-center justify-center overflow-hidden shadow-2xl shrink-0">
+            <i class="fa-solid fa-user-shield text-7xl text-slate-600"></i>
+        </div>
+    </section>
+
+    <!-- ================= TENTANG SAYA ================= -->
+    <section id="tentang" class="py-14 px-8 md:px-16 w-full border-t border-slate-900">
+        <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <span class="w-3 h-3 rounded-full bg-primary"></span> Tentang Saya
+        </h2>
+        <div class="bg-slate-900/40 border border-slate-900 rounded-2xl p-6 md:p-8">
+            <p class="text-slate-400 text-base leading-relaxed">
+                Experienced and detail-oriented Software Quality Assurance Engineer with strong expertise in manual and automated software testing, specializing in large-scale banking and e-commerce systems. Skilled in the end-to-end software testing lifecycle, including test planning, test execution, defect management, test reporting, and quality assurance governance within Agile development environments. Proficient in industry-standard tools and technologies such as Jira, Postman, Selenium, Playwright, Appium, WebdriverIO, and Katalon Studio. Committed to continuous improvement, process optimization, and delivering software products that meet both business objectives and customer expectations. Based in South Jakarta, Indonesia.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= PENGALAMAN KERJA ================= -->
+    <section id="pengalaman" class="py-14 px-8 md:px-16 w-full border-t border-slate-900">
+        <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+            <span class="w-3 h-3 rounded-full bg-primary"></span> Pengalaman Kerja
+        </h2>
+        <div class="space-y-6">
+            <!-- Pengalaman 1 -->
+            <div class="bg-slate-900/40 border border-slate-900 rounded-2xl p-6 space-y-3 hover:border-slate-800 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-1">
+                    <div>
+                        <h3 class="font-bold text-white text-lg">Software Quality Assurance Tester</h3>
+                        <p class="text-primary font-medium text-sm">PT. Bank Rakyat Indonesia (Persero) Tbk</p>
+                    </div>
+                    <span class="text-xs bg-primary/10 text-primary px-3 py-1 rounded-lg border border-primary/20 w-fit">08/2024 - Present</span>
+                </div>
+                <ul class="list-disc list-inside text-slate-400 text-sm space-y-1.5 leading-relaxed">
+                    <li>Contributed to internal applications for BRI's Head Office and Branch Offices, focusing on the Merchant Management System (MMS).</li>
+                    <li>Executed deployment processes for new features and bug fixes to staging and production environments.</li>
+                    <li>Performed comprehensive manual testing including SIT, UAT, Functional, Regression, and E2E Testing.</li>
+                    <li>Developed and maintained test documentation, test scenarios, and technical notes in an Agile environment.</li>
+                </ul>
+            </div>
+
+            <!-- Pengalaman 2 -->
+            <div class="bg-slate-900/40 border border-slate-900 rounded-2xl p-6 space-y-3 hover:border-slate-800 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-1">
+                    <div>
+                        <h3 class="font-bold text-white text-lg">Software Quality Assurance</h3>
+                        <p class="text-primary font-medium text-sm">ByteDance Technology Co., Ltd.</p>
+                    </div>
+                    <span class="text-xs bg-primary/10 text-primary px-3 py-1 rounded-lg border border-primary/20 w-fit">01/2024 - 06/2024</span>
+                </div>
+                <ul class="list-disc list-inside text-slate-400 text-sm space-y-1.5 leading-relaxed">
+                    <li>Conducted data integration testing between Tokopedia applications and TikTok Shop for data consistency.</li>
+                    <li>Performed functional and regression testing on delivery services such as BO/PLUS, free shipping vouchers, and badges.</li>
+                    <li>Involved in migrating key features from Tokopedia to TikTok Shop ensuring feature parity and usability.</li>
+                    <li>Utilized Lark to manage test cases, user stories, and track bugs during testing workflows.</li>
+                </ul>
+            </div>
+
+            <!-- Pengalaman 3 -->
+            <div class="bg-slate-900/40 border border-slate-900 rounded-2xl p-6 space-y-3 hover:border-slate-800 transition">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-1">
+                    <div>
+                        <h3 class="font-bold text-white text-lg">Software Quality Assurance - Manual Tester</h3>
+                        <p class="text-primary font-medium text-sm">PT. GoTo Gojek Tokopedia Tbk</p>
+                    </div>
+                    <span class="text-xs bg-primary/10 text-primary px-3 py-1 rounded-lg border border-primary/20 w-fit">08/2021 - 12/2023</span>
+                </div>
+                <ul class="list-disc list-inside text-slate-400 text-sm space-y-1.5 leading-relaxed">
+                    <li>Conducted manual testing for web applications, Mobile Lite, Android, and iOS platforms.</li>
+                    <li>Analyzed PRD and BRD to develop effective testing strategies and execution reports.</li>
+                    <li>Identified and reported software defects while collaborating with cross-functional development teams.</li>
+                    <li>Leveraged tools such as Jira, Confluence, Slack, Figma, and Postman to streamline workflows.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= KEAHLIAN & TOOLS ================= -->
+    <section id="keahlian" class="py-14 px-8 md:px-16 w-full border-t border-slate-900">
+        <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <span class="w-3 h-3 rounded-full bg-primary"></span> Keahlian & Tools QA
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <div class="bg-slate-900/50 border border-slate-900 p-4 rounded-2xl text-center space-y-2 hover:border-slate-800 transition">
+                <i class="fa-solid fa-bolt text-3xl text-orange-500"></i>
+                <h3 class="text-sm font-semibold text-white">Selenium</h3>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-900 p-4 rounded-2xl text-center space-y-2 hover:border-slate-800 transition">
+                <i class="fa-solid fa-code text-3xl text-primary"></i>
+                <h3 class="text-sm font-semibold text-white">Playwright</h3>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-900 p-4 rounded-2xl text-center space-y-2 hover:border-slate-800 transition">
+                <i class="fa-solid fa-mobile-screen text-3xl text-green-400"></i>
+                <h3 class="text-sm font-semibold text-white">Appium</h3>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-900 p-4 rounded-2xl text-center space-y-2 hover:border-slate-800 transition">
+                <i class="fa-solid fa-paper-plane text-3xl text-amber-500"></i>
+                <h3 class="text-sm font-semibold text-white">Postman</h3>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-900 p-4 rounded-2xl text-center space-y-2 hover:border-slate-800 transition">
+                <i class="fa-solid fa-bug text-3xl text-blue-400"></i>
+                <h3 class="text-sm font-semibold text-white">Jira</h3>
+            </div>
+            <div class="bg-slate-900/50 border border-slate-900 p-4 rounded-2xl text-center space-y-2 hover:border-slate-800 transition">
+                <i class="fa-solid fa-vial text-3xl text-purple-400"></i>
+                <h3 class="text-sm font-semibold text-white">Katalon</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PENDIDIKAN & FINAL PROJECT ================= -->
+    <section id="pendidikan" class="py-14 px-8 md:px-16 w-full border-t border-slate-900">
+        <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <span class="w-3 h-3 rounded-full bg-primary"></span> Pendidikan
+        </h2>
+        <div class="bg-slate-900/40 border border-slate-900 rounded-2xl p-6 space-y-3">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-1">
+                <div>
+                    <h3 class="font-bold text-white text-lg">Indraprasta PGRI University</h3>
+                    <p class="text-primary font-medium text-sm">Bachelor of Technology (BTech), Informatics Engineering</p>
+                </div>
+                <span class="text-xs bg-primary/10 text-primary px-3 py-1 rounded-lg border border-primary/20 w-fit">09/2017 - 02/2022</span>
+            </div>
+            <p class="text-slate-400 text-sm leading-relaxed">
+                <strong>Final Project:</strong> "Pengembangan Aplikasi Pengelolaan Data pada Rainbow Rent Car menggunakan NetBeans". Developed a desktop-based data management system using Java, NetBeans IDE, and MySQL database to streamline customer data, vehicle inventory, and rental transactions.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= KONTAK ================= -->
+    <section id="kontak" class="py-14 px-8 md:px-16 w-full border-t border-slate-900 text-center">
+        <h2 class="text-2xl font-bold text-white mb-3">Mari Terhubung</h2>
+        <p class="text-slate-400 text-sm mb-6 max-w-xl mx-auto leading-relaxed">Tertarik untuk berkolaborasi atau berdiskusi seputar Quality Assurance? Jangan ragu untuk menghubungi saya melalui kontak di bawah ini.</p>
+        
+        <div class="flex justify-center gap-6 text-2xl text-slate-400">
+            <a href="mailto:ggalangekawiyonoo@gmail.com" class="hover:text-primary transition" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://wa.me/6285157612022?text=Halo%20Galang,%20saya%20tertarik%20untuk%20berdiskusi." target="_blank" class="hover:text-emerald-400 transition" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://linkedin.com/in/galangekw" target="_blank" class="hover:text-primary transition" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="py-6 border-t border-slate-900 text-center text-xs text-slate-500 w-full">
+        <p>&copy; 2026 Galang Eka Wiyono. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
